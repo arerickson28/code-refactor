@@ -3,18 +3,20 @@
 ### Welcome to my code-refactor repositiry
 Inside you will find:
 
-* **starter_code** 
-    * Unaltered starter code for this assignment
+* **instructions** 
     * A READEME.md file of the assigment instuctions
 
-* **my_code**
-    * My assignment submission with starter code alterations
+* **index.html**
+    * My assignment submission for improved webpage accessibility
+
+* **assets**
+    * Folder containing CSS and images
     
 ----
 
 ### Refactoring Changes
 
-* Noted that this page mostly uses `<div>` tags
+* Noted that this page mostly used `<div>` tags
 
 * Changed `<title>` from "website" to "Horiseon | Home Page"
 
@@ -24,7 +26,6 @@ Inside you will find:
 
 * Changed `<div>` element of `class="content"` to a `<main>` element
     * Inside new `<main>` element, changed three `<div>` elements of `class="search-engine-optimization"`, `class="online-reputation-management"`, and `class="social-media-marketing"` to `<section>` elements.
-        * Placed each `<img>` element inside each new `<section>` element inside a `<figure>` element
     
 * Changed `<div>` element of `class="benefits"` to an `<aside>` element
     * Inside new `<aside>` element, changed three `<div>` elements of `class="benefit-lead"`, `class="benefit-brand"`, and `class="benefit-cost"` to `<section>` elements
@@ -32,6 +33,10 @@ Inside you will find:
 * Added alt attributes to `<img>` elements 
 
 * Changed `<div>` element of `class="footer"` to a `<footer>` element
+
+* In CSS
+    * Rewrote header rules with header selector instead of with "header" class
+    * Many rules were able to be condensed under classes "content" and "benefits"
 
 ---
 
